@@ -1,0 +1,14 @@
+body {
+    color: green;
+}
+
+.marketing {
+    h4 {
+      a {
+        color: $brand-warning;
+      }
+    }
+    p {
+        color: $brand-primary;
+    }
+}
