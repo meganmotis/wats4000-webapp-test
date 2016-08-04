@@ -1,14 +1,21 @@
 body {
-    color: green;
+  @include gradient-vertical-three-colors;
+  color: green;
 }
 
 .marketing {
-    h4 {
-      a {
-        color: $brand-warning;
-      }
+  h4 {
+    a {
+      color: $brand-warning;
     }
-    p {
-        color: $brand-primary;
-    }
+  }
+
+  p {
+      color: $brand-primary;
+  }
+}
+
+.container .jumbotron {
+  @include border-top-radius(0px);
+  @include border-bottom-radius(50px);
 }
